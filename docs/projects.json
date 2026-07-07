@@ -52,16 +52,17 @@
     "title": "Econ Calendar & News Sentiment Feed",
     "tier": "tier-1",
     "icon": "📰",
-    "summary": "Aggregates the economic calendar and headline news, scores sentiment with FinBERT/VADER, and stores it as a queryable feature feed.",
+    "summary": "Fetches this week's high-impact USD econ events and recent headline news, scores each headline with VADER sentiment, and stores both as a queryable feature feed.",
     "problem": "The live scanner already reacts to price/volume, but has no signal for macro events or news sentiment shifting the regime.",
     "tech": [
       "Python",
-      "FinBERT",
+      "VADER",
+      "Alpaca News API",
       "PostgreSQL",
-      "Flask"
+      "Docker"
     ],
-    "status": "planned",
-    "github": null
+    "status": "complete",
+    "github": "https://github.com/Joevue123/econ-news-feed"
   },
   {
     "id": "05",

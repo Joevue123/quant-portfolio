@@ -26,7 +26,7 @@ Status is tracked per-project in [`docs/projects.json`](docs/projects.json) and 
 | 01 | **Multi-Source Market Data Pipeline** | Python, Polygon.io, Alpaca, PostgreSQL, Docker | ✅ Complete |
 | 02 | Options Chain & Greeks Analyzer | Python, Polygon.io, NumPy, SciPy | 📋 |
 | 03 | Dark Pool & Block Trade Tracker | Python, Polygon.io, Telegram Bot API | 📋 |
-| 04 | Econ Calendar & News Sentiment Feed | Python, FinBERT, PostgreSQL, Flask | 📋 |
+| 04 | **Econ Calendar & News Sentiment Feed** | Python, VADER, Alpaca News API, PostgreSQL, Docker | ✅ Complete |
 | 05 | Unusual Options Activity Scanner | Python, Polygon.io, PostgreSQL | 📋 |
 | 06 | Sector & Correlation Heatmap | Python, Pandas, Flask, Plotly | 📋 |
 | 07 | Real-Time Order Book Depth Visualizer | Python, Alpaca, WebSockets, Flask | 📋 |
