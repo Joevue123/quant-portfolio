@@ -38,7 +38,7 @@ def main():
     if args.github is not None:
         match["github"] = args.github
 
-    PROJECTS_PATH.write_text(json.dumps(projects, indent=2) + "\n")
+    PROJECTS_PATH.write_text(json.dumps(projects, indent=2, ensure_ascii=False) + "\n")
 
     print(f"#{project_id} {match['title']}: {old_status} -> {args.status}")
     if args.github is not None:

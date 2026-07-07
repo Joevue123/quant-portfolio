@@ -23,7 +23,7 @@ Status is tracked per-project in [`docs/projects.json`](docs/projects.json) and 
 
 | # | Project | Tech | Status |
 |---|---------|------|--------|
-| 01 | Multi-Source Market Data Pipeline | Python, Polygon.io, Alpaca, PostgreSQL, TimescaleDB | 📋 |
+| 01 | **Multi-Source Market Data Pipeline** | Python, Polygon.io, Alpaca, PostgreSQL, Docker | ✅ Complete |
 | 02 | Options Chain & Greeks Analyzer | Python, Polygon.io, NumPy, SciPy | 📋 |
 | 03 | Dark Pool & Block Trade Tracker | Python, Polygon.io, Telegram Bot API | 📋 |
 | 04 | Econ Calendar & News Sentiment Feed | Python, FinBERT, PostgreSQL, Flask | 📋 |
