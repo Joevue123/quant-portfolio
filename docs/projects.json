@@ -108,8 +108,8 @@
       "WebSockets",
       "Flask"
     ],
-    "status": "planned",
-    "github": null
+    "status": "complete",
+    "github": "https://github.com/Joevue123/order-book-depth-visualizer"
   },
   {
     "id": "08",
