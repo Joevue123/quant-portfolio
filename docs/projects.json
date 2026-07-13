@@ -29,8 +29,8 @@
       "NumPy",
       "SciPy"
     ],
-    "status": "planned",
-    "github": null
+    "status": "complete",
+    "github": "https://github.com/Joevue123/options-greeks-analyzer"
   },
   {
     "id": "03",
