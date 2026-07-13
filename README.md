@@ -61,7 +61,7 @@ Status is tracked per-project in [`docs/projects.json`](docs/projects.json) and 
 | 26 | Infrastructure Health & Uptime Monitor | Prometheus, Grafana, Docker, Telegram Bot API | 📋 |
 | 27 | Automated Deploy Pipeline for the Scanner | GitHub Actions, Docker, AWS EC2 | 📋 |
 | 28 | WebSocket Live Price Feed Service | Python, WebSockets, Redis, Alpaca | 📋 |
-| 29 | **Risk Pre-Trade Checker** | Python, Alpaca, PostgreSQL, Telegram Bot API | 🚧 In Progress |
+| 29 | **Risk Pre-Trade Checker** | Python, Alpaca, PostgreSQL, Telegram Bot API | ✅ Complete |
 | 30 | Disaster Recovery & State Snapshotting | Python, AWS S3, AWS EC2 | 📋 |
 
 ## Tier 4 — Risk & Portfolio Management
