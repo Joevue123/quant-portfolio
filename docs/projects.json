@@ -533,8 +533,8 @@
       "PostgreSQL",
       "WeasyPrint"
     ],
-    "status": "planned",
-    "github": null
+    "status": "complete",
+    "github": "https://github.com/Joevue123/daily-pnl-report"
   },
   {
     "id": "36",
