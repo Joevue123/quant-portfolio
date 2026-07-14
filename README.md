@@ -1,6 +1,6 @@
 # Quant Developer Portfolio
 
-50 quantitative trading projects organized by tier — anchored by a live automated scanner and
+70 quantitative trading projects organized by tier — anchored by a live automated scanner and
 execution system running on AWS, with real fills, a Postgres trade journal, and pre-trade risk
 controls already in production (paper trading).
 
@@ -15,6 +15,10 @@ Live site: `docs/index.html` (deploy via GitHub Pages or Netlify — see below).
 | [Tier 3](#tier-3--execution--infrastructure) | Execution & Infrastructure | 21–30 |
 | [Tier 4](#tier-4--risk--portfolio-management) | Risk & Portfolio Management | 31–40 |
 | [Tier 5](#tier-5--agentic-ai) | Agentic AI | 41–50 |
+| [Tier 6](#tier-6--trading--execution) | Trading & Execution | 51–55 |
+| [Tier 7](#tier-7--machine-learning) | Machine Learning | 56–59 |
+| [Tier 8](#tier-8--fixed-income--macro) | Fixed Income & Macro | 60–64 |
+| [Tier 9](#tier-9--alternative-data) | Alternative Data | 65–67 |
 
 Status is tracked per-project in [`docs/projects.json`](docs/projects.json) and kept in sync with
 [`update_project.py`](update_project.py) — see [Updating status](#updating-a-projects-status) below.
@@ -93,6 +97,43 @@ Status is tracked per-project in [`docs/projects.json`](docs/projects.json) and 
 | 48 | Automated Code Review Agent for Strategy Changes | Python, Claude API, GitHub Actions | 📋 |
 | 49 | Voice-Briefed Morning Market Prep Agent | Python, Claude API, Text-to-Speech | 📋 |
 | 50 | Self-Tuning Parameter Agent | Python, Claude API | 📋 |
+
+## Tier 6 — Trading & Execution
+
+| # | Project | Tech | Status |
+|---|---------|------|--------|
+| 51 | Real-time Bid/Ask Spread Analyzer | Python, Alpaca, WebSockets, Pandas | 📋 |
+| 52 | Order Slicing & Execution Algorithm (TWAP/VWAP) | Python, Alpaca, Pandas | 📋 |
+| 53 | Latency Benchmarking Tool | Python, Alpaca, AWS EC2 | 📋 |
+| 54 | Order Flow Toxicity Detector (VPIN) | Python, Polygon.io, NumPy | 📋 |
+| 55 | Microstructure Noise Filter | Python, NumPy, Pandas | 📋 |
+
+## Tier 7 — Machine Learning
+
+| # | Project | Tech | Status |
+|---|---------|------|--------|
+| 56 | LSTM Price Direction Predictor | Python, TensorFlow/Keras, Pandas | 📋 |
+| 57 | Random Forest Feature Importance Ranker | Python, scikit-learn, Pandas | 📋 |
+| 58 | Sentiment Analysis on Fed Statements/FOMC Minutes | Python, Claude API, NLTK | 📋 |
+| 59 | Reinforcement Learning Position Sizer | Python, Stable-Baselines3, NumPy | 📋 |
+
+## Tier 8 — Fixed Income & Macro
+
+| # | Project | Tech | Status |
+|---|---------|------|--------|
+| 60 | Yield Curve Monitor (2s10s Spread) | Python, FRED API, Pandas | 📋 |
+| 61 | Credit Spread Tracker (HYG/LQD Ratio) | Python, yfinance, Pandas | 📋 |
+| 62 | Macro Regime Dashboard (Growth/Inflation Quadrant) | Python, FRED API, Pandas | 📋 |
+| 63 | Real Rate Monitor (TIPS vs Nominal) | Python, FRED API, Pandas | 📋 |
+| 64 | Dollar Index Impact Analyzer | Python, FRED API, yfinance, Pandas | 📋 |
+
+## Tier 9 — Alternative Data
+
+| # | Project | Tech | Status |
+|---|---------|------|--------|
+| 65 | Retail Sentiment Tracker (Reddit/StockTwits Flow) | Python, Reddit API, StockTwits API, VADER | 📋 |
+| 66 | Satellite Data Proxy (Shipping ETF Momentum) | Python, yfinance, Pandas | 📋 |
+| 67 | Google Trends Signal Generator | Python, pytrends, Pandas | 📋 |
 
 ## Updating a project's status
 

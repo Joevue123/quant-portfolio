@@ -6,6 +6,10 @@ const TIER_NAMES = {
   'tier-3': 'Execution & Infrastructure',
   'tier-4': 'Risk & Portfolio Management',
   'tier-5': 'Agentic AI',
+  'tier-6': 'Trading & Execution',
+  'tier-7': 'Machine Learning',
+  'tier-8': 'Fixed Income & Macro',
+  'tier-9': 'Alternative Data',
 };
 
 const STATUS_LABEL = {
@@ -33,7 +37,7 @@ async function loadProjects() {
 
 function renderTierProgress() {
   const el = document.getElementById('tier-progress');
-  const tiers = ['tier-1', 'tier-2', 'tier-3', 'tier-4', 'tier-5'];
+  const tiers = ['tier-1', 'tier-2', 'tier-3', 'tier-4', 'tier-5', 'tier-6', 'tier-7', 'tier-8', 'tier-9'];
 
   el.innerHTML = tiers.map((tier, i) => {
     const inTier = PROJECTS.filter(p => p.tier === tier);
@@ -103,7 +107,7 @@ function renderProjects() {
     grid.innerHTML = `
       <div class="no-results">
         No projects matched <strong>"${currentQuery}"</strong>
-        <p>Try a tool name like "postgresql", a tier, or clear the search to browse all 50 projects.</p>
+        <p>Try a tool name like "postgresql", a tier, or clear the search to browse all ${PROJECTS.length} projects.</p>
       </div>`;
   }
 
@@ -151,7 +155,8 @@ function renderProjects() {
   });
 
   const showHeadings = currentTierFilter === 'all' && currentStatusFilter === 'all' && !q;
-  ['tier-1-heading','tier-2-heading','tier-3-heading','tier-4-heading','tier-5-heading']
+  ['tier-1-heading','tier-2-heading','tier-3-heading','tier-4-heading','tier-5-heading',
+   'tier-6-heading','tier-7-heading','tier-8-heading','tier-9-heading']
     .forEach(id => {
       const el = document.getElementById(id);
       if (el) el.style.display = showHeadings ? '' : 'none';

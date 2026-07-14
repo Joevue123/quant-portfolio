@@ -759,5 +759,263 @@
     ],
     "status": "planned",
     "github": null
+  },
+  {
+    "id": "51",
+    "title": "Real-time Bid/Ask Spread Analyzer",
+    "tier": "tier-6",
+    "icon": "📏",
+    "summary": "Streams live NBBO quotes and tracks bid/ask spread in real time across the watchlist, flagging abnormal widening as a liquidity/risk signal.",
+    "problem": "Spread width is a direct proxy for execution cost and liquidity risk, but the scanner has no continuous view of it — trades get routed blind to how expensive the spread actually is right now.",
+    "tech": [
+      "Python",
+      "Alpaca",
+      "WebSockets",
+      "Pandas"
+    ],
+    "status": "planned",
+    "github": null
+  },
+  {
+    "id": "52",
+    "title": "Order Slicing & Execution Algorithm (TWAP/VWAP)",
+    "tier": "tier-6",
+    "icon": "🍕",
+    "summary": "Splits large orders into smaller time- or volume-weighted slices (TWAP/VWAP) to reduce market impact, instead of submitting a single block order.",
+    "problem": "The scanner's execution submits full-size orders in one shot — on size, that moves the market against the fill; slicing the order over time is the standard fix.",
+    "tech": [
+      "Python",
+      "Alpaca",
+      "Pandas"
+    ],
+    "status": "planned",
+    "github": null
+  },
+  {
+    "id": "53",
+    "title": "Latency Benchmarking Tool",
+    "tier": "tier-6",
+    "icon": "⏱️",
+    "summary": "Measures round-trip latency from signal fire to order acknowledgement on the live EC2 instance, benchmarked against Alpaca's published SLAs.",
+    "problem": "Slippage isn't only about price — it's also about how long it takes the scanner's EC2 box to get an order to the broker, and that number has never been measured directly.",
+    "tech": [
+      "Python",
+      "Alpaca",
+      "AWS EC2"
+    ],
+    "status": "planned",
+    "github": null
+  },
+  {
+    "id": "54",
+    "title": "Order Flow Toxicity Detector (VPIN)",
+    "tier": "tier-6",
+    "icon": "☣️",
+    "summary": "Computes the VPIN (Volume-Synchronized Probability of Informed Trading) metric from trade prints to flag periods of toxic, informed order flow.",
+    "problem": "Fills during high-VPIN windows tend to carry adverse selection risk that a plain volume/price signal can't see — VPIN gives an explicit read on that risk before sizing into a trade.",
+    "tech": [
+      "Python",
+      "Polygon.io",
+      "NumPy"
+    ],
+    "status": "planned",
+    "github": null
+  },
+  {
+    "id": "55",
+    "title": "Microstructure Noise Filter",
+    "tier": "tier-6",
+    "icon": "🔬",
+    "summary": "Filters bid/ask bounce and other microstructure noise out of tick data before it reaches signal generation, using a realized-volatility-based noise model.",
+    "problem": "Raw tick data mixes real price discovery with bid/ask bounce noise — feeding that noise straight into signals produces false triggers that a filtering step would catch.",
+    "tech": [
+      "Python",
+      "NumPy",
+      "Pandas"
+    ],
+    "status": "planned",
+    "github": null
+  },
+  {
+    "id": "56",
+    "title": "LSTM Price Direction Predictor",
+    "tier": "tier-7",
+    "icon": "🧬",
+    "summary": "Sequence model (LSTM) trained on OHLCV and signal features to predict next-bar price direction, benchmarked against the scanner's rule-based score.",
+    "problem": "The live scanner's directional call is a hand-weighted heuristic — an LSTM trained on the same history tests whether a learned sequence model actually beats it out-of-sample.",
+    "tech": [
+      "Python",
+      "TensorFlow/Keras",
+      "Pandas"
+    ],
+    "status": "planned",
+    "github": null
+  },
+  {
+    "id": "57",
+    "title": "Random Forest Feature Importance Ranker",
+    "tier": "tier-7",
+    "icon": "🌲",
+    "summary": "Trains a Random Forest on the scanner's 40+ signal features against realized trade outcomes, ranking which features actually carry predictive weight.",
+    "problem": "The scanner scores signals with hand-tuned weights across 40+ features — nobody's verified statistically which of those features actually move the outcome versus just adding noise.",
+    "tech": [
+      "Python",
+      "scikit-learn",
+      "Pandas"
+    ],
+    "status": "planned",
+    "github": null
+  },
+  {
+    "id": "58",
+    "title": "Sentiment Analysis on Fed Statements/FOMC Minutes",
+    "tier": "tier-7",
+    "icon": "🏛️",
+    "summary": "NLP pipeline scoring FOMC statements and meeting minutes for hawkish/dovish sentiment shift, feeding that as a macro feature.",
+    "problem": "FOMC language shifts move markets on a delay as analysts parse it — an automated sentiment score reads the same text the instant it's released instead of waiting on secondhand commentary.",
+    "tech": [
+      "Python",
+      "Claude API",
+      "NLTK"
+    ],
+    "status": "planned",
+    "github": null
+  },
+  {
+    "id": "59",
+    "title": "Reinforcement Learning Position Sizer",
+    "tier": "tier-7",
+    "icon": "🎮",
+    "summary": "RL agent trained via backtesting to learn a position-sizing policy from reward shaped on realized P&L and drawdown, as an alternative to fixed/Kelly sizing.",
+    "problem": "Fixed and Kelly-based sizing rules are static — an RL agent trained against the historical reward surface can adapt sizing to conditions those static rules don't capture.",
+    "tech": [
+      "Python",
+      "Stable-Baselines3",
+      "NumPy"
+    ],
+    "status": "planned",
+    "github": null
+  },
+  {
+    "id": "60",
+    "title": "Yield Curve Monitor (2s10s Spread)",
+    "tier": "tier-8",
+    "icon": "📐",
+    "summary": "Tracks the 2s10s (and other key) Treasury spread daily, flagging inversions and steepenings against historical recession-lead-time context.",
+    "problem": "The macro dashboard covers rates broadly, but the yield curve's shape — not just its level — is the single most-watched recession signal in fixed income and has no dedicated tracker.",
+    "tech": [
+      "Python",
+      "FRED API",
+      "Pandas"
+    ],
+    "status": "planned",
+    "github": null
+  },
+  {
+    "id": "61",
+    "title": "Credit Spread Tracker (HYG/LQD Ratio)",
+    "tier": "tier-8",
+    "icon": "🧵",
+    "summary": "Tracks the HYG/LQD (high-yield vs. investment-grade) ratio as a real-time proxy for credit spread widening and risk appetite.",
+    "problem": "Credit spreads often move ahead of equities in a risk-off shift, but nothing in the current stack watches high-yield vs. investment-grade credit relative performance.",
+    "tech": [
+      "Python",
+      "yfinance",
+      "Pandas"
+    ],
+    "status": "planned",
+    "github": null
+  },
+  {
+    "id": "62",
+    "title": "Macro Regime Dashboard (Growth/Inflation Quadrant)",
+    "tier": "tier-8",
+    "icon": "🧭",
+    "summary": "Classifies the current macro regime into a growth/inflation quadrant model (the CAIA-style framework), mapping which asset classes and factors typically lead in each quadrant.",
+    "problem": "The existing macro dashboard shows raw Fed/CPI/yield levels but doesn't translate them into the growth/inflation quadrant framework that actually drives asset allocation decisions.",
+    "tech": [
+      "Python",
+      "FRED API",
+      "Pandas"
+    ],
+    "status": "planned",
+    "github": null
+  },
+  {
+    "id": "63",
+    "title": "Real Rate Monitor (TIPS vs Nominal)",
+    "tier": "tier-8",
+    "icon": "📊",
+    "summary": "Computes real yields from TIPS vs. nominal Treasury yields to track the real-rate regime, a key driver of equity valuation multiples.",
+    "problem": "Nominal yields alone conflate rate and inflation expectations — stripping out TIPS-implied real yields isolates the real-rate signal that actually drives valuation multiples.",
+    "tech": [
+      "Python",
+      "FRED API",
+      "Pandas"
+    ],
+    "status": "planned",
+    "github": null
+  },
+  {
+    "id": "64",
+    "title": "Dollar Index Impact Analyzer",
+    "tier": "tier-8",
+    "icon": "💵",
+    "summary": "Tracks DXY moves against the watchlist's multinational-heavy names to quantify dollar strength's drag on earnings-sensitive equities.",
+    "problem": "A strong dollar is a well-known headwind for multinational earnings, but the scanner has no explicit feature connecting DXY moves to the equities it's actually trading.",
+    "tech": [
+      "Python",
+      "FRED API",
+      "yfinance",
+      "Pandas"
+    ],
+    "status": "planned",
+    "github": null
+  },
+  {
+    "id": "65",
+    "title": "Retail Sentiment Tracker (Reddit/StockTwits Flow)",
+    "tier": "tier-9",
+    "icon": "💬",
+    "summary": "Streams Reddit (r/wallstreetbets) and StockTwits message volume/sentiment per ticker, flagging retail sentiment spikes as a contrarian or momentum feature.",
+    "problem": "Retail flow can precede or amplify a move well before it shows up in price/volume — nothing in the current stack watches that chatter directly.",
+    "tech": [
+      "Python",
+      "Reddit API",
+      "StockTwits API",
+      "VADER"
+    ],
+    "status": "planned",
+    "github": null
+  },
+  {
+    "id": "66",
+    "title": "Satellite Data Proxy (Shipping ETF Momentum)",
+    "tier": "tier-9",
+    "icon": "🛰️",
+    "summary": "Uses shipping/freight ETF momentum (e.g. BDRY, SEA) as a low-cost proxy for satellite-derived global trade activity signals.",
+    "problem": "True satellite imagery data is expensive and out of reach for a solo project — a shipping-ETF-based proxy captures a similar global trade/freight-demand signal at zero data cost.",
+    "tech": [
+      "Python",
+      "yfinance",
+      "Pandas"
+    ],
+    "status": "planned",
+    "github": null
+  },
+  {
+    "id": "67",
+    "title": "Google Trends Signal Generator",
+    "tier": "tier-9",
+    "icon": "🔍",
+    "summary": "Pulls Google Trends search volume for ticker/company names and turns spikes into a retail-attention feature.",
+    "problem": "Search interest spikes often precede retail-driven price moves, but that signal currently isn't captured anywhere in the pipeline.",
+    "tech": [
+      "Python",
+      "pytrends",
+      "Pandas"
+    ],
+    "status": "planned",
+    "github": null
   }
 ]

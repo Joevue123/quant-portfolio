@@ -23,6 +23,10 @@
   --t3: #d29922;
   --t4: #f0883e;
   --t5: #bc8cff;
+  --t6: #ff7b72;
+  --t7: #f778ba;
+  --t8: #e3b341;
+  --t9: #56d4dd;
 
   --font: 'Inter', system-ui, sans-serif;
   --mono: 'JetBrains Mono', 'Fira Code', monospace;
@@ -211,6 +215,14 @@ a:hover { text-decoration: underline; }
 [data-tier="4"] .tier-fill  { background: var(--t4); }
 [data-tier="5"] .tier-count { color: var(--t5); }
 [data-tier="5"] .tier-fill  { background: var(--t5); }
+[data-tier="6"] .tier-count { color: var(--t6); }
+[data-tier="6"] .tier-fill  { background: var(--t6); }
+[data-tier="7"] .tier-count { color: var(--t7); }
+[data-tier="7"] .tier-fill  { background: var(--t7); }
+[data-tier="8"] .tier-count { color: var(--t8); }
+[data-tier="8"] .tier-fill  { background: var(--t8); }
+[data-tier="9"] .tier-count { color: var(--t9); }
+[data-tier="9"] .tier-fill  { background: var(--t9); }
 
 /* ── About ────────────────────────────────────────────────────────── */
 .about-section {
@@ -462,6 +474,10 @@ a:hover { text-decoration: underline; }
 .tier-3 { background: rgba(210, 153, 34, 0.15); color: var(--t3); border: 1px solid rgba(210, 153, 34, 0.3); }
 .tier-4 { background: rgba(240, 136, 62, 0.15); color: var(--t4); border: 1px solid rgba(240, 136, 62, 0.3); }
 .tier-5 { background: rgba(188, 140, 255, 0.15); color: var(--t5); border: 1px solid rgba(188, 140, 255, 0.3); }
+.tier-6 { background: rgba(255, 123, 114, 0.15); color: var(--t6); border: 1px solid rgba(255, 123, 114, 0.3); }
+.tier-7 { background: rgba(247, 120, 186, 0.15); color: var(--t7); border: 1px solid rgba(247, 120, 186, 0.3); }
+.tier-8 { background: rgba(227, 179, 65, 0.15);  color: var(--t8); border: 1px solid rgba(227, 179, 65, 0.3); }
+.tier-9 { background: rgba(86, 212, 221, 0.15);  color: var(--t9); border: 1px solid rgba(86, 212, 221, 0.3); }
 
 /* ── Project Grid ─────────────────────────────────────────────────── */
 .projects-grid {
@@ -499,6 +515,10 @@ a:hover { text-decoration: underline; }
 .project-card[data-tier="tier-3"]::before { background: var(--t3); }
 .project-card[data-tier="tier-4"]::before { background: var(--t4); }
 .project-card[data-tier="tier-5"]::before { background: var(--t5); }
+.project-card[data-tier="tier-6"]::before { background: var(--t6); }
+.project-card[data-tier="tier-7"]::before { background: var(--t7); }
+.project-card[data-tier="tier-8"]::before { background: var(--t8); }
+.project-card[data-tier="tier-9"]::before { background: var(--t9); }
 
 /* ── Status Badges ────────────────────────────────────────────────── */
 .status-badge {
