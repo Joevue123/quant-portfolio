@@ -154,8 +154,8 @@
       "FRED API",
       "Flask"
     ],
-    "status": "planned",
-    "github": null
+    "status": "complete",
+    "github": "https://github.com/Joevue123/macro-dashboard"
   },
   {
     "id": "11",
