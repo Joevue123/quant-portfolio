@@ -31,7 +31,7 @@ Status is tracked per-project in [`docs/projects.json`](docs/projects.json) and 
 | 06 | **Sector & Correlation Heatmap** | Python, Pandas, Flask, Plotly | ✅ Complete |
 | 07 | **Real-Time Order Book Depth Visualizer** | Python, Alpaca, WebSockets, Flask | ✅ Complete |
 | 08 | **Historical Volatility & IV Rank Database** | Python, Polygon.io, PostgreSQL, Cron | ✅ Complete |
-| 09 | Insider Trading & 13F Filing Tracker | Python, SEC EDGAR API, PostgreSQL | 📋 |
+| 09 | **Insider Trading & 13F Filing Tracker** | Python, SEC EDGAR API, PostgreSQL | ✅ Complete |
 | 10 | Macro Dashboard (Fed, CPI, Yields) | Python, FRED API, Flask | 📋 |
 
 ## Tier 2 — Backtesting & Strategy

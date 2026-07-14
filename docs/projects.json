@@ -139,8 +139,8 @@
       "SEC EDGAR API",
       "PostgreSQL"
     ],
-    "status": "planned",
-    "github": null
+    "status": "complete",
+    "github": "https://github.com/Joevue123/insider-13f-tracker"
   },
   {
     "id": "10",
