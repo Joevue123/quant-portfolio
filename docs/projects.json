@@ -259,8 +259,8 @@
       "XGBoost",
       "scikit-learn"
     ],
-    "status": "planned",
-    "github": null
+    "status": "complete",
+    "github": "https://github.com/Joevue123/ml-signal-classifier"
   },
   {
     "id": "18",
