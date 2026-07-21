@@ -274,8 +274,8 @@
       "hmmlearn",
       "NumPy"
     ],
-    "status": "planned",
-    "github": null
+    "status": "complete",
+    "github": "https://github.com/Joevue123/regime-detection-hmm"
   },
   {
     "id": "19",
