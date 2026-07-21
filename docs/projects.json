@@ -199,8 +199,8 @@
       "NumPy",
       "Matplotlib"
     ],
-    "status": "planned",
-    "github": null
+    "status": "complete",
+    "github": "https://github.com/Joevue123/monte-carlo-stress-tester"
   },
   {
     "id": "14",
