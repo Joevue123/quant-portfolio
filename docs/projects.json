@@ -229,8 +229,8 @@
       "Pandas",
       "PostgreSQL"
     ],
-    "status": "planned",
-    "github": null
+    "status": "complete",
+    "github": "https://github.com/Joevue123/momentum-factor-strategy-library"
   },
   {
     "id": "16",
