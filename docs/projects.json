@@ -184,8 +184,8 @@
       "Pandas",
       "NumPy"
     ],
-    "status": "planned",
-    "github": null
+    "status": "complete",
+    "github": "https://github.com/Joevue123/walk-forward-optimization-framework"
   },
   {
     "id": "13",
