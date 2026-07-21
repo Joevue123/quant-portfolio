@@ -289,8 +289,8 @@
       "PostgreSQL",
       "Pandas"
     ],
-    "status": "planned",
-    "github": null
+    "status": "complete",
+    "github": "https://github.com/Joevue123/strategy-performance-attribution-engine"
   },
   {
     "id": "20",

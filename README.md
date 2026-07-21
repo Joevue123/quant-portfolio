@@ -50,7 +50,7 @@ Status is tracked per-project in [`docs/projects.json`](docs/projects.json) and 
 | 16 | Options Credit Spread Screener & Backtester | Python, Polygon.io, Pandas | 📋 |
 | 17 | Machine-Learning Signal Classifier | Python, XGBoost, scikit-learn | 📋 |
 | 18 | **Regime Detection Model (HMM)** | Python, hmmlearn, NumPy | ✅ Complete |
-| 19 | Strategy Performance Attribution Engine | Python, PostgreSQL, Pandas | 📋 |
+| 19 | **Strategy Performance Attribution Engine** | Python, PostgreSQL, Pandas | ✅ Complete |
 | 20 | Parameter Sensitivity & Overfitting Auditor | Python, Pandas, Matplotlib | 📋 |
 
 ## Tier 3 — Execution & Infrastructure
