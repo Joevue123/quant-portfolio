@@ -214,8 +214,8 @@
       "Alpaca",
       "statsmodels"
     ],
-    "status": "planned",
-    "github": null
+    "status": "complete",
+    "github": "https://github.com/Joevue123/mean-reversion-pairs-trading-bot"
   },
   {
     "id": "15",
