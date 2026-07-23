@@ -57,7 +57,7 @@ Status is tracked per-project in [`docs/projects.json`](docs/projects.json) and 
 
 | # | Project | Tech | Status |
 |---|---------|------|--------|
-| 21 | Smart Order Router | Python, Alpaca, Interactive Brokers | 📋 |
+| 21 | **Smart Order Router** | Python, Alpaca, Interactive Brokers | ✅ Complete |
 | 22 | Order Execution Quality Analyzer | Python, PostgreSQL, Pandas | 📋 |
 | 23 | Multi-Broker Abstraction Layer | Python, Alpaca, Interactive Brokers, Tradier | 📋 |
 | 24 | Redis-Backed Signal Cache & Pub/Sub | Python, Redis | 📋 |

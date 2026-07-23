@@ -319,8 +319,8 @@
       "Alpaca",
       "Interactive Brokers"
     ],
-    "status": "planned",
-    "github": null
+    "status": "complete",
+    "github": "https://github.com/Joevue123/smart-order-router"
   },
   {
     "id": "22",
