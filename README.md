@@ -78,7 +78,7 @@ Status is tracked per-project in [`docs/projects.json`](docs/projects.json) and 
 | 34 | **Correlated Exposure Dashboard** | Python, Flask, Alpaca | ✅ Complete |
 | 35 | **Daily P&L & Risk Report Generator** | Python, PostgreSQL, WeasyPrint | ✅ Complete |
 | 36 | Strategy Capital Allocation Engine | Python, Pandas, PostgreSQL | 📋 |
-| 37 | Stress-Test & Scenario Simulator | Python, Pandas, NumPy | 📋 |
+| 37 | **Stress-Test & Scenario Simulator** | Python, Pandas, NumPy | ✅ Complete |
 | 38 | **Kill-Switch & Circuit Breaker Service** | Python, Alpaca, PostgreSQL | ✅ Complete |
 | 39 | Portfolio Rebalancing Scheduler | Python, Alpaca, PostgreSQL, Cron | 📋 |
 | 40 | Compliance & Audit Trail Logger | Python, PostgreSQL | 📋 |
