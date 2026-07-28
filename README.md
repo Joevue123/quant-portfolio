@@ -73,7 +73,7 @@ Status is tracked per-project in [`docs/projects.json`](docs/projects.json) and 
 | # | Project | Tech | Status |
 |---|---------|------|--------|
 | 31 | **Trade Journal Database** | Python, PostgreSQL, Alpaca, Docker | ✅ Complete |
-| 32 | Portfolio VaR & Drawdown Monitor | Python, PostgreSQL, NumPy | 📋 |
+| 32 | **Portfolio VaR & Drawdown Monitor** | Python, PostgreSQL, NumPy | ✅ Complete |
 | 33 | Kelly/Vol-Target Position Sizing Optimizer | Python, NumPy, PostgreSQL | 📋 |
 | 34 | Correlated Exposure Dashboard | Python, Flask, Alpaca | 📋 |
 | 35 | **Daily P&L & Risk Report Generator** | Python, PostgreSQL, WeasyPrint | ✅ Complete |

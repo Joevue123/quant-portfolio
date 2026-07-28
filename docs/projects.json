@@ -488,8 +488,8 @@
       "PostgreSQL",
       "NumPy"
     ],
-    "status": "planned",
-    "github": null
+    "status": "complete",
+    "github": "https://github.com/Joevue123/portfolio-var-drawdown-monitor"
   },
   {
     "id": "33",
