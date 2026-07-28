@@ -74,7 +74,7 @@ Status is tracked per-project in [`docs/projects.json`](docs/projects.json) and 
 |---|---------|------|--------|
 | 31 | **Trade Journal Database** | Python, PostgreSQL, Alpaca, Docker | ✅ Complete |
 | 32 | **Portfolio VaR & Drawdown Monitor** | Python, PostgreSQL, NumPy | ✅ Complete |
-| 33 | Kelly/Vol-Target Position Sizing Optimizer | Python, NumPy, PostgreSQL | 📋 |
+| 33 | **Kelly/Vol-Target Position Sizing Optimizer** | Python, NumPy, PostgreSQL | ✅ Complete |
 | 34 | **Correlated Exposure Dashboard** | Python, Flask, Alpaca | ✅ Complete |
 | 35 | **Daily P&L & Risk Report Generator** | Python, PostgreSQL, WeasyPrint | ✅ Complete |
 | 36 | Strategy Capital Allocation Engine | Python, Pandas, PostgreSQL | 📋 |
