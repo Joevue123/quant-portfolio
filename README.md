@@ -103,7 +103,7 @@ Status is tracked per-project in [`docs/projects.json`](docs/projects.json) and 
 | # | Project | Tech | Status |
 |---|---------|------|--------|
 | 51 | Real-time Bid/Ask Spread Analyzer | Python, Alpaca, WebSockets, Pandas | 📋 |
-| 52 | Order Slicing & Execution Algorithm (TWAP/VWAP) | Python, Alpaca, Pandas | 📋 |
+| 52 | **Order Slicing & Execution Algorithm (TWAP/VWAP)** | Python, Alpaca, Pandas | ✅ Complete |
 | 53 | Latency Benchmarking Tool | Python, Alpaca, AWS EC2 | 📋 |
 | 54 | Order Flow Toxicity Detector (VPIN) | Python, Polygon.io, NumPy | 📋 |
 | 55 | Microstructure Noise Filter | Python, NumPy, Pandas | 📋 |
