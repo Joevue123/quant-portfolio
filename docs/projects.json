@@ -350,8 +350,8 @@
       "Interactive Brokers",
       "Tradier"
     ],
-    "status": "planned",
-    "github": null
+    "status": "complete",
+    "github": "https://github.com/Joevue123/multi-broker-abstraction-layer"
   },
   {
     "id": "24",
