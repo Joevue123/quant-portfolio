@@ -578,8 +578,8 @@
       "Alpaca",
       "PostgreSQL"
     ],
-    "status": "planned",
-    "github": null
+    "status": "complete",
+    "github": "https://github.com/Joevue123/kill-switch-circuit-breaker"
   },
   {
     "id": "39",
