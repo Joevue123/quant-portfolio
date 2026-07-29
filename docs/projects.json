@@ -639,8 +639,8 @@
       "Telegram Bot API",
       "PostgreSQL"
     ],
-    "status": "planned",
-    "github": null
+    "status": "complete",
+    "github": "https://github.com/Joevue123/natural-language-strategy-query-bot"
   },
   {
     "id": "43",

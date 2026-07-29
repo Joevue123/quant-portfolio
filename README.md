@@ -88,7 +88,7 @@ Status is tracked per-project in [`docs/projects.json`](docs/projects.json) and 
 | # | Project | Tech | Status |
 |---|---------|------|--------|
 | 41 | **LLM Trade Journal Analyst Agent** | Python, Claude API, PostgreSQL | ✅ Complete |
-| 42 | Natural-Language Strategy Query Bot | Python, Claude API, Telegram Bot API, PostgreSQL | 📋 |
+| 42 | **Natural-Language Strategy Query Bot** | Python, Claude API, Telegram Bot API, PostgreSQL | ✅ Complete |
 | 43 | Autonomous Backtest-and-Report Agent | Python, Claude API, Pandas | 📋 |
 | 44 | RAG Pipeline over SEC Filings & Earnings Calls | Python, pgvector, Claude API | 📋 |
 | 45 | **Signal Explainability Agent** | Python, Claude API, PostgreSQL | ✅ Complete |
