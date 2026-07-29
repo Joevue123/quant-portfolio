@@ -96,7 +96,7 @@ Status is tracked per-project in [`docs/projects.json`](docs/projects.json) and 
 | 47 | **Multi-Agent Strategy Research Team** | Python, Claude Agent SDK | ✅ Complete |
 | 48 | **Automated Code Review Agent for Strategy Changes** | Python, Claude API, GitHub Actions | ✅ Complete |
 | 49 | **Voice-Briefed Morning Market Prep Agent** | Python, Claude API, Text-to-Speech | ✅ Complete |
-| 50 | Self-Tuning Parameter Agent | Python, Claude API | 📋 |
+| 50 | **Self-Tuning Parameter Agent** | Python, Claude API | ✅ Complete |
 
 ## Tier 6 — Trading & Execution
 

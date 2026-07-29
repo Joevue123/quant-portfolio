@@ -757,8 +757,8 @@
       "Python",
       "Claude API"
     ],
-    "status": "planned",
-    "github": null
+    "status": "complete",
+    "github": "https://github.com/Joevue123/self-tuning-parameter-agent"
   },
   {
     "id": "51",
