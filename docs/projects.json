@@ -654,8 +654,8 @@
       "Claude API",
       "Pandas"
     ],
-    "status": "planned",
-    "github": null
+    "status": "complete",
+    "github": "https://github.com/Joevue123/autonomous-backtest-and-report-agent"
   },
   {
     "id": "44",
