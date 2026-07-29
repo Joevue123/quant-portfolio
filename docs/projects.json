@@ -699,8 +699,8 @@
       "Claude API",
       "Telegram Bot API"
     ],
-    "status": "planned",
-    "github": null
+    "status": "complete",
+    "github": "https://github.com/Joevue123/anomaly-detection-agent-for-regime-shifts"
   },
   {
     "id": "47",

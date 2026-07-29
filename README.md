@@ -92,7 +92,7 @@ Status is tracked per-project in [`docs/projects.json`](docs/projects.json) and 
 | 43 | **Autonomous Backtest-and-Report Agent** | Python, Claude API, Pandas | ✅ Complete |
 | 44 | RAG Pipeline over SEC Filings & Earnings Calls | Python, pgvector, Claude API | 📋 |
 | 45 | **Signal Explainability Agent** | Python, Claude API, PostgreSQL | ✅ Complete |
-| 46 | Anomaly Detection Agent for Regime Shifts | Python, Claude API, Telegram Bot API | 📋 |
+| 46 | **Anomaly Detection Agent for Regime Shifts** | Python, Claude API, Telegram Bot API | ✅ Complete |
 | 47 | Multi-Agent Strategy Research Team | Python, Claude Agent SDK | 📋 |
 | 48 | Automated Code Review Agent for Strategy Changes | Python, Claude API, GitHub Actions | 📋 |
 | 49 | Voice-Briefed Morning Market Prep Agent | Python, Claude API, Text-to-Speech | 📋 |
