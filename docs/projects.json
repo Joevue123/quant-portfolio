@@ -728,8 +728,8 @@
       "Claude API",
       "GitHub Actions"
     ],
-    "status": "planned",
-    "github": null
+    "status": "complete",
+    "github": "https://github.com/Joevue123/automated-code-review-agent-for-strategy-changes"
   },
   {
     "id": "49",
