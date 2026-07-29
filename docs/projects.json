@@ -743,8 +743,8 @@
       "Claude API",
       "Text-to-Speech"
     ],
-    "status": "planned",
-    "github": null
+    "status": "complete",
+    "github": "https://github.com/Joevue123/voice-briefed-morning-market-prep-agent"
   },
   {
     "id": "50",
