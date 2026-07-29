@@ -623,8 +623,8 @@
       "Claude API",
       "PostgreSQL"
     ],
-    "status": "planned",
-    "github": null
+    "status": "complete",
+    "github": "https://github.com/Joevue123/llm-trade-journal-analyst-agent"
   },
   {
     "id": "42",
