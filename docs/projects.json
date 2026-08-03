@@ -379,8 +379,8 @@
       "Docker Compose",
       "Python"
     ],
-    "status": "planned",
-    "github": null
+    "status": "complete",
+    "github": "https://github.com/Joevue123/dockerized-multi-strategy-orchestrator"
   },
   {
     "id": "26",
@@ -410,8 +410,8 @@
       "Docker",
       "AWS EC2"
     ],
-    "status": "planned",
-    "github": null
+    "status": "complete",
+    "github": "https://github.com/Joevue123/automated-deploy-pipeline-for-the-scanner"
   },
   {
     "id": "28",

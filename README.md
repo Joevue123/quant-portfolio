@@ -61,9 +61,9 @@ Status is tracked per-project in [`docs/projects.json`](docs/projects.json) and 
 | 22 | **Order Execution Quality Analyzer** | Python, PostgreSQL, Pandas | ✅ Complete |
 | 23 | **Multi-Broker Abstraction Layer** | Python, Alpaca, Interactive Brokers, Tradier | ✅ Complete |
 | 24 | **Redis-Backed Signal Cache & Pub/Sub** | Python, Redis | ✅ Complete |
-| 25 | Dockerized Multi-Strategy Orchestrator | Docker, Docker Compose, Python | 📋 |
+| 25 | **Dockerized Multi-Strategy Orchestrator** | Docker, Docker Compose, Python | ✅ Complete |
 | 26 | **Infrastructure Health & Uptime Monitor** | Prometheus, Grafana, Docker, Telegram Bot API | ✅ Complete |
-| 27 | Automated Deploy Pipeline for the Scanner | GitHub Actions, Docker, AWS EC2 | 📋 |
+| 27 | **Automated Deploy Pipeline for the Scanner** | GitHub Actions, Docker, AWS EC2 | ✅ Complete |
 | 28 | WebSocket Live Price Feed Service | Python, WebSockets, Redis, Alpaca | 📋 |
 | 29 | **Risk Pre-Trade Checker** | Python, Alpaca, PostgreSQL, Telegram Bot API | ✅ Complete |
 | 30 | Disaster Recovery & State Snapshotting | Python, AWS S3, AWS EC2 | 📋 |
