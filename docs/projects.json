@@ -426,8 +426,8 @@
       "Redis",
       "Alpaca"
     ],
-    "status": "planned",
-    "github": null
+    "status": "complete",
+    "github": "https://github.com/Joevue123/websocket-live-price-feed-service"
   },
   {
     "id": "29",
@@ -457,8 +457,8 @@
       "AWS S3",
       "AWS EC2"
     ],
-    "status": "planned",
-    "github": null
+    "status": "complete",
+    "github": "https://github.com/Joevue123/disaster-recovery-state-snapshotting"
   },
   {
     "id": "31",
@@ -548,8 +548,8 @@
       "Pandas",
       "PostgreSQL"
     ],
-    "status": "planned",
-    "github": null
+    "status": "complete",
+    "github": "https://github.com/Joevue123/strategy-capital-allocation-engine"
   },
   {
     "id": "37",
@@ -594,8 +594,8 @@
       "PostgreSQL",
       "Cron"
     ],
-    "status": "planned",
-    "github": null
+    "status": "complete",
+    "github": "https://github.com/Joevue123/portfolio-rebalancing-scheduler"
   },
   {
     "id": "40",

@@ -64,9 +64,9 @@ Status is tracked per-project in [`docs/projects.json`](docs/projects.json) and 
 | 25 | **Dockerized Multi-Strategy Orchestrator** | Docker, Docker Compose, Python | ✅ Complete |
 | 26 | **Infrastructure Health & Uptime Monitor** | Prometheus, Grafana, Docker, Telegram Bot API | ✅ Complete |
 | 27 | **Automated Deploy Pipeline for the Scanner** | GitHub Actions, Docker, AWS EC2 | ✅ Complete |
-| 28 | WebSocket Live Price Feed Service | Python, WebSockets, Redis, Alpaca | 📋 |
+| 28 | **WebSocket Live Price Feed Service** | Python, WebSockets, Redis, Alpaca | ✅ Complete |
 | 29 | **Risk Pre-Trade Checker** | Python, Alpaca, PostgreSQL, Telegram Bot API | ✅ Complete |
-| 30 | Disaster Recovery & State Snapshotting | Python, AWS S3, AWS EC2 | 📋 |
+| 30 | **Disaster Recovery & State Snapshotting** | Python, AWS S3, AWS EC2 | ✅ Complete |
 
 ## Tier 4 — Risk & Portfolio Management
 
@@ -77,10 +77,10 @@ Status is tracked per-project in [`docs/projects.json`](docs/projects.json) and 
 | 33 | **Kelly/Vol-Target Position Sizing Optimizer** | Python, NumPy, PostgreSQL | ✅ Complete |
 | 34 | **Correlated Exposure Dashboard** | Python, Flask, Alpaca | ✅ Complete |
 | 35 | **Daily P&L & Risk Report Generator** | Python, PostgreSQL, WeasyPrint | ✅ Complete |
-| 36 | Strategy Capital Allocation Engine | Python, Pandas, PostgreSQL | 📋 |
+| 36 | **Strategy Capital Allocation Engine** | Python, Pandas, PostgreSQL | ✅ Complete |
 | 37 | **Stress-Test & Scenario Simulator** | Python, Pandas, NumPy | ✅ Complete |
 | 38 | **Kill-Switch & Circuit Breaker Service** | Python, Alpaca, PostgreSQL | ✅ Complete |
-| 39 | Portfolio Rebalancing Scheduler | Python, Alpaca, PostgreSQL, Cron | 📋 |
+| 39 | **Portfolio Rebalancing Scheduler** | Python, Alpaca, PostgreSQL, Cron | ✅ Complete |
 | 40 | Compliance & Audit Trail Logger | Python, PostgreSQL | 📋 |
 
 ## Tier 5 — Agentic AI
