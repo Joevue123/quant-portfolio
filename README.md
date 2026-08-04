@@ -81,7 +81,7 @@ Status is tracked per-project in [`docs/projects.json`](docs/projects.json) and 
 | 37 | **Stress-Test & Scenario Simulator** | Python, Pandas, NumPy | ✅ Complete |
 | 38 | **Kill-Switch & Circuit Breaker Service** | Python, Alpaca, PostgreSQL | ✅ Complete |
 | 39 | **Portfolio Rebalancing Scheduler** | Python, Alpaca, PostgreSQL, Cron | ✅ Complete |
-| 40 | Compliance & Audit Trail Logger | Python, PostgreSQL | 📋 |
+| 40 | **Compliance & Audit Trail Logger** | Python, PostgreSQL | ✅ Complete |
 
 ## Tier 5 — Agentic AI
 
