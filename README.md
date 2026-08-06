@@ -90,7 +90,7 @@ Status is tracked per-project in [`docs/projects.json`](docs/projects.json) and 
 | 41 | **LLM Trade Journal Analyst Agent** | Python, Claude API, PostgreSQL | ✅ Complete |
 | 42 | **Natural-Language Strategy Query Bot** | Python, Claude API, Telegram Bot API, PostgreSQL | ✅ Complete |
 | 43 | **Autonomous Backtest-and-Report Agent** | Python, Claude API, Pandas | ✅ Complete |
-| 44 | RAG Pipeline over SEC Filings & Earnings Calls | Python, pgvector, Claude API | 📋 |
+| 44 | **RAG Pipeline over SEC Filings & Earnings Calls** | Python, pgvector, Claude API | ✅ Complete |
 | 45 | **Signal Explainability Agent** | Python, Claude API, PostgreSQL | ✅ Complete |
 | 46 | **Anomaly Detection Agent for Regime Shifts** | Python, Claude API, Telegram Bot API | ✅ Complete |
 | 47 | **Multi-Agent Strategy Research Team** | Python, Claude Agent SDK | ✅ Complete |
