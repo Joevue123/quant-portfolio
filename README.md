@@ -105,7 +105,7 @@ Status is tracked per-project in [`docs/projects.json`](docs/projects.json) and 
 | 51 | **Real-time Bid/Ask Spread Analyzer** | Python, Alpaca, WebSockets, Pandas | ✅ Complete |
 | 52 | **Order Slicing & Execution Algorithm (TWAP/VWAP)** | Python, Alpaca, Pandas | ✅ Complete |
 | 53 | **Latency Benchmarking Tool** | Python, Alpaca, AWS EC2 | ✅ Complete |
-| 54 | Order Flow Toxicity Detector (VPIN) | Python, Polygon.io, NumPy | 📋 |
+| 54 | **Order Flow Toxicity Detector (VPIN)** | Python, Polygon.io, NumPy | ✅ Complete |
 | 55 | Microstructure Noise Filter | Python, NumPy, Pandas | 📋 |
 
 ## Tier 7 — Machine Learning
